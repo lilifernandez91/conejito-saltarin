@@ -1,0 +1,22 @@
+<!-- 
+    Maquetación Parte 1: Contador 
+    Hacemos un listado con input de tipo checkbox
+    Escribimos estilos en línea, ejemplo: 
+    counter-reset: game (game es el nombre del juego)
+    input: checked{
+        counter-increment: game
+    } (cuando está chequeado hace lo que le ordenamos)
+-->
+
+<!-- 
+    Maquetación Parte 2: Contexto de apilamiento
+    Detallar la cantidad de capas que va a tener el juego
+-->
+
+<!-- 
+    Maquetación Parte 3: Dibujo con CSS
+ -->
+
+ <!-- 
+    Animaciones
+ -->

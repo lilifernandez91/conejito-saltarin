@@ -1,0 +1,365 @@
+        body{
+            display: grid;
+            counter-reset: score;
+            place-items: center;
+            height: 100vh;
+            width: 100%;
+            margin: 0;
+            cursor: pointer;
+        }
+
+.touch-rabbit-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(17, 104, 32);
+}
+
+.count-text{
+    font-size: 20px;
+    margin-top: 2px;
+    color: black;
+}
+
+.btn-reset{
+   border-radius: 5px;
+   border: none;
+   color: white;
+   background-color: rgb(17, 104, 32);
+   height: 20px;
+}
+
+        .phone{
+            position: relative;
+            border: 8px solid black;
+            border-radius: 40px;
+            height: 600px;
+            width: 300px;
+            background-color: #CCF0FF;
+            box-shadow: 0 19px 38px rgb(0, 0, 0, 0.30), 0 15px 12px rgb(0, 0, 0, 0.22);
+        }
+        .layer-1{
+            position: absolute;
+            z-index: 1;
+            height: 450px;
+            width: 80px;
+            bottom: 0;
+            right: 60px;
+
+            animation-name: layer;
+            animation-duration: 1.5s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes layer{
+            0%{
+              bottom: 0;
+            }
+            25%{
+              bottom: -80px;  
+            }
+            100%{
+              bottom: 0;  
+            }
+        }
+        .layer-2{
+            position: absolute;
+            z-index: 2;
+            height: 450px;
+            width: 80px;
+            bottom: 0;
+            left: 60px;
+
+            animation-name: layer;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes layer{
+            0%{
+bottom: 0;
+            }
+            25%{
+              bottom: -80px;  
+            }
+            100%{
+              bottom: 0;  
+            }
+        }
+        .layer-3{
+            position: absolute;
+            z-index: 3;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 220px;
+            height: 400px;
+            background-color: #C3785A;
+            bottom: 0;
+            border-radius: 30px;
+        }
+        .layer-4{
+            position: absolute;
+            z-index: 4;
+            height: 350px;
+            width: 80px;
+            bottom: 0;
+            left: 40px;
+
+            animation-name: layer;
+            animation-duration: 1.5s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes layer{
+            0%{
+bottom: 0;
+            }
+            25%{
+              bottom: -80px;  
+            }
+            100%{
+              bottom: 0;  
+            }
+        }
+        .layer-5{
+            position: absolute;
+            z-index: 5;
+            width: 220px;
+            height: 300px;
+            background-color: #C3785A;
+            bottom: 0;
+            border-radius: 30px;
+        }
+        .layer-6{
+            position: absolute;
+            z-index: 6;
+            height: 250px;
+            width: 80px;
+            bottom: 0;
+            right: 40px;
+
+            animation-name: layer;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes layer{
+            0%{
+bottom: 0;
+            }
+            25%{
+              bottom: -80px;  
+            }
+            100%{
+              bottom: 0;  
+            }
+        }
+        .layer-7{
+            position: absolute;
+            z-index: 7;
+            width: 200px;
+            height: 200px;
+            background-color: #C3785A;
+            bottom: 0;
+            left: 100px;
+            border-radius: 30px;
+        }
+        .layer-8{
+            position: absolute;
+            z-index: 8;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 180px;
+            height: 100px;
+            background-color: #73AA75;
+            bottom: 0;
+            border-radius: 30px;
+        }
+        .layer-9{
+            position: absolute;
+            z-index: 9;
+            width: 120px;
+            height: 59px;
+            background-color: white;
+            bottom: 0;
+            border-radius: 50px;
+        }
+        .layer-10{
+            position: absolute;
+            z-index: 10;
+            width: 120px;
+            height: 59px;
+            background-color: white;
+            bottom: 0;
+            border-radius: 50px;
+            left: 180px;
+        }
+        .left-ear-outer{
+            background-color: white;
+            border-radius: 90%;
+            width: 20px;
+            height: 50px;
+            position: absolute;
+            left: 10px;
+        }
+        .left-ear-inner{
+            background-color: pink;
+            border-radius: 90%;
+            width: 10px;
+            height: 50px;
+            position: absolute;
+            left: 15px;
+            top: 8px;
+        }
+        .right-ear-outer{
+            background-color: white;
+            border-radius: 90%;
+            width: 20px;
+            height: 50px;
+            position: absolute;
+            right: 10px;
+        }
+        .right-ear-inner{
+            background-color: pink;
+            border-radius: 90%;
+            width: 10px;
+            height: 50px;
+            position: absolute;
+            right: 15px;
+            top: 8px;
+        }
+        .head{
+            background-color: white;
+            border-radius: 50px;
+            height: 80px;
+            width: 100%;
+            left: 0;
+            right: 0;
+            top: 30px;
+            margin: 0 auto;
+            position: absolute;
+        }
+        .head-eye{
+            background: black;
+            border-radius: 50%;
+            width: 4px;
+            height: 4px;
+            position: absolute;
+            top: 15px;
+
+            animation-name: blink;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes blink{
+0%{
+    height: 4px;
+}
+5%{
+    transform: translate(0px, 2px);
+    height: 1px;
+}
+10%{
+    transform: translate(0px, 0px);
+    height: 4px;
+}
+        }
+
+        .head-eye-left{
+            left: 30px;
+        }
+        .head-eye-right{
+            right: 30px;
+        }
+        .layer-3::after,
+        .layer-5::after,
+        .layer-7::after {
+            content: "";
+            position: absolute; 
+            left: -0px;
+            top: 0px;
+            width: 100%;
+            height: 40px;
+            background: linear-gradient(135deg, #73AA75 25%, transparent 25%) -50px 0,
+                        linear-gradient(-135deg, #73AA75 25%, transparent 25%) -50px 0,
+                        linear-gradient(45deg, #73AA75 25%, transparent 25%),
+                        linear-gradient(-45deg, #73AA75 25%, transparent 25%);
+            background-size: 40px 100px;
+            background-position: 140px 0 0 30px 0;
+            border-radius: 50px;
+        }
+
+        .layer-3::before,
+        .layer-5::before,
+        .layer-7::before {
+            content: "";
+            position: absolute; 
+            left: -0px;
+            top: 15px;
+            width: 100%;
+            height: 40px;
+            background: linear-gradient(135deg, #AC6045 25%, transparent 25%) -50px 0,
+                        linear-gradient(-135deg, #AC6045 25%, transparent 25%) -50px 0,
+                        linear-gradient(45deg, #AC6045 25%, transparent 25%),
+                        linear-gradient(-45deg, #AC6045 25%, transparent 25%);
+            background-size: 40px 100px;
+            background-position: 140px 0 0 30px 0;
+        }
+        .layer-8-bush {
+            width: 141px;
+            height: 142px;
+            background-color: #66a167;
+            border-radius: 50%;
+            position: absolute;
+            left: 26px;
+            top: -43px;
+        }
+
+        .layer-8-bush::after {
+            content: "";
+            width: 90px;
+            height: 90px;
+            background-color: #66a167;
+            border-radius: 50%;
+            position: absolute;
+            left: 105px;
+            top: 25px;
+        }
+
+        .layer-8-bush::before {
+            content: "";
+            width: 90px;
+            height: 90px;
+            background-color: #66a167;
+            border-radius: 50%;
+            position: absolute;
+            left: -77px;
+            top: 24px;
+        }
+        .layer-9-bush::before {
+            content: "";
+            width: 90px;
+            height: 90px;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+            top: -42px;
+        }
+        .layer-10-bush::before {
+            content: "";
+            width: 90px;
+            height: 90px;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+            top: -42px;
+            right: 0px;
+        }
