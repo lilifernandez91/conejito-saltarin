@@ -5,8 +5,8 @@ Este proyecto consiste en crear un conejito animado con CSS y dotarlo de movimie
 Para instalar el proyecto, asegúrate de tener Live Server instalado. Luego, sigue estos pasos:
 
 - Descarga o clona este repositorio en tu máquina local.
-- - Abre el proyecto en tu editor de código preferido.
-Abre el archivo index.html y ejecútalo con Live Server.
+- Abre el proyecto en tu editor de código preferido.
+- Abre el archivo index.html y ejecútalo con Live Server.
 
 2- Instrucciones de uso
 - Haz clic en el conejito cada vez que salte para incrementar el contador.
