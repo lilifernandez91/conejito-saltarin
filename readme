@@ -1,22 +1,15 @@
-<!-- 
-    Maquetación Parte 1: Contador 
-    Hacemos un listado con input de tipo checkbox
-    Escribimos estilos en línea, ejemplo: 
-    counter-reset: game (game es el nombre del juego)
-    input: checked{
-        counter-increment: game
-    } (cuando está chequeado hace lo que le ordenamos)
--->
+# Conejito Saltarín
+Este proyecto consiste en crear un conejito animado con CSS y dotarlo de movimiento.
 
-<!-- 
-    Maquetación Parte 2: Contexto de apilamiento
-    Detallar la cantidad de capas que va a tener el juego
--->
+1- Instrucciones de instalación
+Para instalar el proyecto, asegúrate de tener Live Server instalado. Luego, sigue estos pasos:
 
-<!-- 
-    Maquetación Parte 3: Dibujo con CSS
- -->
+- Descarga o clona este repositorio en tu máquina local.
+- - Abre el proyecto en tu editor de código preferido.
+Abre el archivo index.html y ejecútalo con Live Server.
 
- <!-- 
-    Animaciones
- -->
+2- Instrucciones de uso
+- Haz clic en el conejito cada vez que salte para incrementar el contador.
+- Para volver a empezar, haz clic en el botón "Volver a empezar".
+
+¡Gracias por visitar este proyecto!
